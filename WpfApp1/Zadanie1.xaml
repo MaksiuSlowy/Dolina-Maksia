@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp1.Zadanie1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Zadanie1" Height="450" Width="800">
+    <Grid>
+        <RadioButton Content="Pocztówka" Margin="23,25,700,392"/>
+        <RadioButton Content="List" Margin="23,47,700,372"/>
+        <RadioButton Content="Paczka" Margin="23,67,700,348"/>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="10,10,626,337"/>
+        <Border BorderBrush="Black" BorderThickness="1" Margin="385,10,85,138">
+            <Button Content="Sprawdź Cena" Margin="-376,95,540,194"></Button>
+        </Border>
+        <Image Margin="10,143,682,217" Source="/mortadela.png" Stretch="Fill"/>
+        <Label Content="Cena: 1,5zł" Margin="126,143,603,267" FontFamily="Source Sans Pro Semibold"/>
+        <Button Content="Button"/>
+    </Grid>
+</Window>

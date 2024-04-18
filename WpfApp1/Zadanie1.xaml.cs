@@ -10,26 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WpfApp1
 {
     /// <summary>
-    /// Interaction logic for Styczen2024.xaml
+    /// Logika interakcji dla klasy Zadanie1.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Zadanie1 : Window
     {
-        public MainWindow()
+        public Zadanie1()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Zadanie1 zadanie1 = new Zadanie1();
-            zadanie1.Show();
-            this.Close();
         }
     }
 }
